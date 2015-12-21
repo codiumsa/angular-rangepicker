@@ -8,14 +8,14 @@ module.exports = (grunt) ->
     coffeelint:
       options:
         configFile: 'coffeelint.json'
-      source: ['coffee/angular-daterangepicker.coffee']
+      source: ['coffee/angular-rangepicker.coffee']
 
     coffee:
       compileJoined:
         options:
           join: true
         files:
-          'js/angular-daterangepicker.js': ['coffee/angular-daterangepicker.coffee']
+          'js/angular-rangepicker.js': ['coffee/angular-rangepicker.coffee']
 
     watch:
       files: ['example.html', 'coffee/*.coffee']
@@ -26,7 +26,7 @@ module.exports = (grunt) ->
         sourceMap: true
       target:
         files:
-          'js/angular-daterangepicker.min.js': ['js/angular-daterangepicker.js']
+          'js/angular-rangepicker.min.js': ['js/angular-rangepicker.js']
 
     wiredep:
       target:
@@ -38,9 +38,9 @@ module.exports = (grunt) ->
       options:
         singleQuotes: true
 
-      daterangepicker:
+      rangepicker:
         files:
-          'js/angular-daterangepicker.js': ['js/angular-daterangepicker.js']
+          'js/angular-rangepicker.js': ['js/angular-rangepicker.js']
 
 
   # Default task(s).
