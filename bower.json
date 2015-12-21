@@ -19,7 +19,7 @@
   "dependencies": {
     "angular": "^1.2.17",
     "bootstrap": "^3.0.0",
-    "bootstrap-rangepicker": "~0.1"
+    "bootstrap-rangepicker": "nahu/bootstrap-rangepicker#0.1"
   },
   "devDependencies": {
     "angular-messages": "^1.2.17"
