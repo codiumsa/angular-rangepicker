@@ -1,7 +1,7 @@
 {
   "name": "angular-rangepicker",
-  "version": "0.1",
-  "homepage": "https://github.com/nahu/angular-rangepicker",
+  "version": "0.1.0",
+  "homepage": "https://github.com/codiumsa/angular-rangepicker",
   "authors": [
     "Nahuel <jnahuelhernandez@gmail.com>"
   ],
