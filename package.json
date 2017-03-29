@@ -2,12 +2,22 @@
   "name": "angular-rangepicker",
   "version": "0.1.0",
   "homepage": "https://github.com/codiumsa/angular-rangepicker",
-  "authors": [
-    "Nahuel <jnahuelhernandez@gmail.com>"
+  "authors": {
+    "name": "Nahuel Hernandez",
+    "email": "nahuel@codium.com.py"
+	},
+  "contributors": [
+    {
+      "name": "Jorge Ramirez",
+      "email": "jorge@codium.com.py"
+    }
   ],
-  "description": "Angular.js wrapper for bootstrap number range picker (https://github.com/nahu/bootstrap-rangepicker).",
+  "description": "Angular.js wrapper for bootstrap number range picker (https://github.com/codiumsa/bootstrap-rangepicker).",
   "license": "MIT",
   "private": false,
+  "dependencies": {
+    "bootstrap-rangepicker": "github:codiumsa/bootstrap-rangepicker#master"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-coffeelint": "^0.0.13",
